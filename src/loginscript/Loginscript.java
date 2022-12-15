@@ -34,7 +34,16 @@ public class Loginscript {
 		String url=driver.getCurrentUrl();
 		System.out.println(url);
 		
-//Step:10 Close Application
+//Step:10 Verification 
+		if(title.equals("actiTIME - Login")) {
+			System.out.println("Pass: Home Page is Displayed");
+		}
+		else
+		{
+			System.out.println("Fail:Home Page is not Displayed");
+		}
+			
+//Step:11 Close Application
 		driver.quit();
 	}
 

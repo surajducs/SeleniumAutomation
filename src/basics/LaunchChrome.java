@@ -8,6 +8,7 @@ public class LaunchChrome {
 		
 		ChromeDriver c=new ChromeDriver();
 		//launch the Chrome Browser 
+			
 	}
 
 }
